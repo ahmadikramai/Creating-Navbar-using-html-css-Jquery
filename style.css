@@ -1,0 +1,125 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ .logo {
+     cursor: pointer;
+     position: relative;
+     bottom: 9px;
+     right: 25px;
+
+ }
+
+ .header {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 30px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-weight: 500;
+     gap: 50px;
+
+ }
+
+
+ .nav ul {
+     display: flex;
+     justify-content: space-between;
+     gap: 50px;
+     list-style: none;
+
+
+ }
+
+ .nav li {
+     cursor: pointer;
+     font-size: 18px;
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     /* border: 2px solid white; */
+     border-radius: 100px;
+     padding: 4px;
+
+ }
+
+ button {
+     width: 120px;
+     height: 40px;
+     border: 3px solid white;
+     border-radius: 40px;
+     /* smooth pill shape */
+     background: #898787;
+     font-weight: bold;
+     text-align: center;
+     cursor: pointer;
+
+ }
+
+ .dropdown {
+     opacity: 1;
+     display: flex;
+     flex-direction: column;
+     position: absolute;
+     gap: 2px;
+     left: 33rem;
+     list-style: circle;
+     border: 2px solid black;
+     border-radius: 20px;
+     /* background-color: gray; */
+
+ }
+
+ .dropdown:hover {
+     background-color: gray;
+ }
+
+ .box {
+     height: 111px;
+     width: 200px;
+     border: 2px solid black;
+     position: absolute;
+     top: 230px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     left: 342px;
+     /* background-color: green; */
+
+ }
+
+ .loco:hover {
+     color: lightgray;
+ }
+
+ .loco1:hover {
+     color: lightgray;
+ }
+
+ .loco2:hover {
+     color: lightgray;
+ }
+
+
+ .box1{
+    border: 2px solid black;
+    height: 111px;
+     width: 200px;
+    position: absolute;
+    right: 329px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 230px;
+ }
+ .awan{
+    position: relative;
+    left: 3px;
+    top: 2px;
+ }
+ svg{
+    position: relative;
+    top: 6px;
+    left: -5px;
+ }
